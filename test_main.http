@@ -1,0 +1,29 @@
+# Test your FastAPI endpoints
+
+
+###
+
+GET http://127.0.0.1:8000/product-by-id/10000
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/products/bulk-upload-to-cluster
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/products/get-document-by-id/1
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/products/search
+Accept: application/json
+
+{
+	"name": "milk",
+	"description": "dairy"
+}
+
+###
